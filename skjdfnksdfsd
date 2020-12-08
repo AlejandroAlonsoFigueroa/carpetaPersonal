@@ -1,0 +1,12 @@
+
+using System;
+class HelloWorld {
+  static void Main() {
+    char decision;
+    int cantidad ;
+    Console.WriteLine("que numero deseas convertir ");
+    Console.WriteLine("A que unidad de medida deseas convertir ");
+    decision = Convert.ToChar(Console.ReadLine());
+  }
+}
+
