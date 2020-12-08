@@ -1,0 +1,292 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo apt-get install recordmydesktop gtk-recordmydesktop
+[sudo] contraseña para alejandro: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0
+  gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0
+  grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libdazzle-1.0-0 libe-book-0.1-1 libedataserverui-1.2-2 libeot0
+  libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14
+  libfreerdp-client2-2 libfreerdp2-2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0
+  libgpgmepp6 libgpod-common libgpod4 liblangtag-common liblangtag1
+  liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1
+  libqqwing2v5 libqt5concurrent5 libraw16 librevenge-0.0-0 libsgutils2-2
+  libssh-4 libsuitesparseconfig5 libvncclient1 libwayland-egl1-mesa
+  libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info
+  python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy
+  usb-creator-common
+Utilice «sudo apt autoremove» para eliminarlos.
+Se instalarán los siguientes paquetes adicionales:
+  libappindicator1 libindicator7 python-appindicator python-cairo python-gi
+  python-gobject python-gobject-2 python-gtk2
+Paquetes sugeridos:
+  indicator-application python-gi-cairo python-gobject-2-dbg python-gtk2-doc
+Se instalarán los siguientes paquetes NUEVOS:
+  gtk-recordmydesktop libappindicator1 libindicator7 python-appindicator
+  python-cairo python-gi python-gobject python-gobject-2 python-gtk2
+  recordmydesktop
+0 actualizados, 10 nuevos se instalarán, 0 para eliminar y 300 no actualizados.
+Se necesita descargar 1 273 kB de archivos.
+Se utilizarán 6 470 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 libindicator7 amd64 16.10.0+18.04.20180321.1-0ubuntu1 [21.7 kB]
+Des:2 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 libappindicator1 amd64 12.10.1+18.04.20180322.1-0ubuntu1 [19.4 kB]
+Des:3 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 recordmydesktop amd64 0.3.8.1+svn602-1ubuntu5 [47.4 kB]
+Des:4 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 python-cairo amd64 1.16.2-1 [56.4 kB]
+Des:5 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 python-gobject-2 amd64 2.28.6-12ubuntu3 [180 kB]
+Des:6 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 python-gtk2 amd64 2.24.0-5.1ubuntu2 [619 kB]
+Des:7 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 gtk-recordmydesktop all 0.3.8-4.1ubuntu1 [121 kB]
+Des:8 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python-gi amd64 3.26.1-2ubuntu1 [197 kB]
+Des:9 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-gobject all 3.26.1-2ubuntu1 [2 624 B]
+Des:10 http://mx.archive.ubuntu.com/ubuntu bionic/universe amd64 python-appindicator amd64 12.10.1+18.04.20180322.1-0ubuntu1 [7 820 B]
+Descargados 1 273 kB en 3s (481 kB/s)                
+Seleccionando el paquete libindicator7 previamente no seleccionado.
+(Leyendo la base de datos ... 328438 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-libindicator7_16.10.0+18.04.20180321.1-0ubuntu1_amd64.deb ...
+Desempaquetando libindicator7 (16.10.0+18.04.20180321.1-0ubuntu1) ...
+Seleccionando el paquete libappindicator1 previamente no seleccionado.
+Preparando para desempaquetar .../1-libappindicator1_12.10.1+18.04.20180322.1-0ubuntu1_amd64.deb ...
+Desempaquetando libappindicator1 (12.10.1+18.04.20180322.1-0ubuntu1) ...
+Seleccionando el paquete recordmydesktop previamente no seleccionado.
+Preparando para desempaquetar .../2-recordmydesktop_0.3.8.1+svn602-1ubuntu5_amd64.deb ...
+Desempaquetando recordmydesktop (0.3.8.1+svn602-1ubuntu5) ...
+Seleccionando el paquete python-cairo:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../3-python-cairo_1.16.2-1_amd64.deb ...
+Desempaquetando python-cairo:amd64 (1.16.2-1) ...
+Seleccionando el paquete python-gobject-2 previamente no seleccionado.
+Preparando para desempaquetar .../4-python-gobject-2_2.28.6-12ubuntu3_amd64.deb ...
+Desempaquetando python-gobject-2 (2.28.6-12ubuntu3) ...
+Seleccionando el paquete python-gtk2 previamente no seleccionado.
+Preparando para desempaquetar .../5-python-gtk2_2.24.0-5.1ubuntu2_amd64.deb ...
+Desempaquetando python-gtk2 (2.24.0-5.1ubuntu2) ...
+Seleccionando el paquete gtk-recordmydesktop previamente no seleccionado.
+Preparando para desempaquetar .../6-gtk-recordmydesktop_0.3.8-4.1ubuntu1_all.deb ...
+Desempaquetando gtk-recordmydesktop (0.3.8-4.1ubuntu1) ...
+Seleccionando el paquete python-gi previamente no seleccionado.
+Preparando para desempaquetar .../7-python-gi_3.26.1-2ubuntu1_amd64.deb ...
+Desempaquetando python-gi (3.26.1-2ubuntu1) ...
+Seleccionando el paquete python-gobject previamente no seleccionado.
+Preparando para desempaquetar .../8-python-gobject_3.26.1-2ubuntu1_all.deb ...
+Desempaquetando python-gobject (3.26.1-2ubuntu1) ...
+Seleccionando el paquete python-appindicator previamente no seleccionado.
+Preparando para desempaquetar .../9-python-appindicator_12.10.1+18.04.20180322.1-0ubuntu1_amd64.deb ...
+Desempaquetando python-appindicator (12.10.1+18.04.20180322.1-0ubuntu1) ...
+Configurando libindicator7 (16.10.0+18.04.20180321.1-0ubuntu1) ...
+Configurando python-gobject-2 (2.28.6-12ubuntu3) ...
+Configurando recordmydesktop (0.3.8.1+svn602-1ubuntu5) ...
+Configurando libappindicator1 (12.10.1+18.04.20180322.1-0ubuntu1) ...
+Configurando python-gi (3.26.1-2ubuntu1) ...
+Configurando python-cairo:amd64 (1.16.2-1) ...
+Configurando python-gobject (3.26.1-2ubuntu1) ...
+Configurando python-gtk2 (2.24.0-5.1ubuntu2) ...
+Configurando python-appindicator (12.10.1+18.04.20180322.1-0ubuntu1) ...
+Configurando gtk-recordmydesktop (0.3.8-4.1ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Procesando disparadores para libc-bin (2.27-3ubuntu1) ...
+Procesando disparadores para man-db (2.8.3-2ubuntu0.1) ...
+Procesando disparadores para gnome-menus (3.13.3-11ubuntu1.1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+alejandro@alejandro-HP-Pavilion-Notebook:~$ printf "foal
+> ;
+> 
+> ^C
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo apt-get install apache2
+[sudo] contraseña para alejandro: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0
+  gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0
+  grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libdazzle-1.0-0 libe-book-0.1-1 libedataserverui-1.2-2 libeot0
+  libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14
+  libfreerdp-client2-2 libfreerdp2-2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0
+  libgpgmepp6 libgpod-common libgpod4 liblangtag-common liblangtag1
+  liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1
+  libqqwing2v5 libqt5concurrent5 libraw16 librevenge-0.0-0 libsgutils2-2
+  libssh-4 libsuitesparseconfig5 libvncclient1 libwayland-egl1-mesa
+  libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info
+  python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy
+  usb-creator-common
+Utilice «sudo apt autoremove» para eliminarlos.
+Se instalarán los siguientes paquetes adicionales:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Paquetes sugeridos:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+Se instalarán los siguientes paquetes NUEVOS:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 actualizados, 9 nuevos se instalarán, 0 para eliminar y 300 no actualizados.
+Se necesita descargar 1 712 kB de archivos.
+Se utilizarán 6 920 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+Des:2 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+Des:3 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+Des:4 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8 764 B]
+Des:5 http://mx.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+Des:6 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.14 [1 070 kB]
+Des:7 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.14 [83.9 kB]
+Des:8 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.14 [160 kB]
+Des:9 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.14 [95.1 kB]
+Descargados 1 712 kB en 3s (527 kB/s)
+Seleccionando el paquete libapr1:amd64 previamente no seleccionado.
+(Leyendo la base de datos ... 328621 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-libapr1_1.6.3-2_amd64.deb ...
+Desempaquetando libapr1:amd64 (1.6.3-2) ...
+Seleccionando el paquete libaprutil1:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Desempaquetando libaprutil1:amd64 (1.6.1-2) ...
+Seleccionando el paquete libaprutil1-dbd-sqlite3:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Desempaquetando libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Seleccionando el paquete libaprutil1-ldap:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Desempaquetando libaprutil1-ldap:amd64 (1.6.1-2) ...
+Seleccionando el paquete liblua5.2-0:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Desempaquetando liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Seleccionando el paquete apache2-bin previamente no seleccionado.
+Preparando para desempaquetar .../5-apache2-bin_2.4.29-1ubuntu4.14_amd64.deb ...
+Desempaquetando apache2-bin (2.4.29-1ubuntu4.14) ...
+Seleccionando el paquete apache2-utils previamente no seleccionado.
+Preparando para desempaquetar .../6-apache2-utils_2.4.29-1ubuntu4.14_amd64.deb ...
+Desempaquetando apache2-utils (2.4.29-1ubuntu4.14) ...
+Seleccionando el paquete apache2-data previamente no seleccionado.
+Preparando para desempaquetar .../7-apache2-data_2.4.29-1ubuntu4.14_all.deb ...
+Desempaquetando apache2-data (2.4.29-1ubuntu4.14) ...
+Seleccionando el paquete apache2 previamente no seleccionado.
+Preparando para desempaquetar .../8-apache2_2.4.29-1ubuntu4.14_amd64.deb ...
+Desempaquetando apache2 (2.4.29-1ubuntu4.14) ...
+Configurando libapr1:amd64 (1.6.3-2) ...
+Configurando apache2-data (2.4.29-1ubuntu4.14) ...
+Configurando libaprutil1:amd64 (1.6.1-2) ...
+Configurando liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Configurando libaprutil1-ldap:amd64 (1.6.1-2) ...
+Configurando libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Configurando apache2-utils (2.4.29-1ubuntu4.14) ...
+Configurando apache2-bin (2.4.29-1ubuntu4.14) ...
+Configurando apache2 (2.4.29-1ubuntu4.14) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Procesando disparadores para libc-bin (2.27-3ubuntu1) ...
+Procesando disparadores para systemd (237-3ubuntu10.38) ...
+Procesando disparadores para man-db (2.8.3-2ubuntu0.1) ...
+Procesando disparadores para ufw (0.36-0ubuntu0.18.04.1) ...
+Procesando disparadores para ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+alejandro@alejandro-HP-Pavilion-Notebook:~$ 
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo nano /etc/postgresql/10/main/postgresql.conf
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo service postgresql stop
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo service postgresql start
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo nano /etc/postgresql/10/main/pg_hba.conf
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo service postgresql stop
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo service postgresql start 
+alejandro@alejandro-HP-Pavilion-Notebook:~$ postgres
+
+Orden «postgres» no encontrada. Quizá quiso decir:
+
+  la orden «postgrey» del paquete deb «postgrey»
+
+Pruebe con: sudo apt install <nombre del paquete deb>
+
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql 
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo psql
+Password: 
+psql: FATAL:  password authentication failed for user "root"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo su
+root@alejandro-HP-Pavilion-Notebook:/home/alejandro# psql
+Password: 
+psql: FATAL:  password authentication failed for user "root"
+root@alejandro-HP-Pavilion-Notebook:/home/alejandro# psql
+Password: 
+psql: FATAL:  password authentication failed for user "root"
+root@alejandro-HP-Pavilion-Notebook:/home/alejandro# psql
+Password: 
+psql: fe_sendauth: no password supplied
+root@alejandro-HP-Pavilion-Notebook:/home/alejandro# pcd ..
+
+Orden «pcd» no encontrada, pero hay 17 similares.
+
+root@alejandro-HP-Pavilion-Notebook:/home/alejandro# cd ..
+root@alejandro-HP-Pavilion-Notebook:/home# home 
+
+Orden «home» no encontrada. Quizá quiso decir:
+
+  la orden «tome» del paquete deb «tome»
+  la orden «uhome» del paquete deb «uhome»
+  la orden «hose» del paquete deb «netpipes»
+  la orden «hime» del paquete deb «hime»
+
+Pruebe con: apt install <nombre del paquete deb>
+
+root@alejandro-HP-Pavilion-Notebook:/home# cd ..
+root@alejandro-HP-Pavilion-Notebook:/# psql
+Password: 
+psql: FATAL:  password authentication failed for user "root"
+root@alejandro-HP-Pavilion-Notebook:/# sudo su -postgres
+su: opción incorrecta -- «o»
+Modo de uso: su [opciones] [USUARIO]
+
+Opciones:
+  -c, --command ORDEN           pasa la ORDEN a la consola invocada
+  -h, --help                    muestra este mensaje de ayuda y termina
+  -, -l, --login                hace que la consola sea una de acceso
+  -m, -p,
+  --preserve-environment        no reinicia las variables de entorno, y
+                                mantiene la misma consola
+  -s, --shell CONSOLA           usa CONSOLA en lugar de la predeterminada en
+                                passwd
+
+root@alejandro-HP-Pavilion-Notebook:/# 
+

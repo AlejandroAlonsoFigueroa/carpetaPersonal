@@ -1,0 +1,651 @@
+pableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 67 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+        at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 68 common frames omitted
+
+2020-10-24 15:18:38.196  INFO 5007 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-10-24 15:18:38.258  INFO 5007 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+        name: default
+        ...]
+2020-10-24 15:18:38.559  INFO 5007 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2020-10-24 15:18:38.564  INFO 5007 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-24 15:18:38.650  WARN 5007 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2020-10-24 15:18:38.660  INFO 5007 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-24 15:18:38.764  INFO 5007 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-24 15:18:38.771 ERROR 5007 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+        ... 33 common frames omitted
+
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1699)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:471)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:589)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:522)
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 min
+[INFO] Finished at: 2020-10-24T15:18:39-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) on project postgres-demo: An exception occurred while running. null: InvocationTargetException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+alejandro@alejandro-HP-Pavilion-Notebook:~/postgres-demo$ mvn spring-boot:run 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:postgres-demo >----------------------
+[INFO] Building postgres-demo 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) > test-compile @ postgres-demo >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ postgres-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ postgres-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/alejandro/postgres-demo/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ postgres-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/alejandro/postgres-demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ postgres-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) < test-compile @ postgres-demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) @ postgres-demo ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2020-10-24 15:29:03.225  INFO 5287 --- [           main] c.e.p.PostgresDemoApplication            : Starting PostgresDemoApplication on alejandro-HP-Pavilion-Notebook with PID 5287 (/home/alejandro/postgres-demo/target/classes started by alejandro in /home/alejandro/postgres-demo)
+2020-10-24 15:29:03.249  INFO 5287 --- [           main] c.e.p.PostgresDemoApplication            : No active profile set, falling back to default profiles: default
+2020-10-24 15:29:03.495  INFO 5287 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3ff3e15: startup date [Sat Oct 24 15:29:03 CDT 2020]; root of context hierarchy
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/home/alejandro/.m2/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-10-24 15:29:07.194  INFO 5287 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$164bdaa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-24 15:29:08.804  INFO 5287 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-24 15:29:09.053  INFO 5287 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-24 15:29:09.057  INFO 5287 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-10-24 15:29:09.096  INFO 5287 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-10-24 15:29:09.385  INFO 5287 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-24 15:29:09.388  INFO 5287 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5924 ms
+2020-10-24 15:29:09.598  INFO 5287 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-10-24 15:29:09.614  INFO 5287 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-24 15:29:09.616  INFO 5287 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-24 15:29:09.617  INFO 5287 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-24 15:29:09.617  INFO 5287 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-24 15:29:10.252  INFO 5287 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-24 15:29:12.145 ERROR 5287 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+        at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10.CGLIB$jpaVendorAdapter$5(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10$$FastClassBySpringCGLIB$$7c13977b.invoke(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10.jpaVendorAdapter(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2020-10-24 15:29:12.162  WARN 5287 --- [           main] o.s.b.a.orm.jpa.DatabaseLookup           : Unable to determine jdbc url from datasource
+
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10.CGLIB$jpaVendorAdapter$5(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10$$FastClassBySpringCGLIB$$7c13977b.invoke(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$35229d10.jpaVendorAdapter(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 67 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+        at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 68 common frames omitted
+
+2020-10-24 15:29:12.335  INFO 5287 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-10-24 15:29:12.398  INFO 5287 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+        name: default
+        ...]
+2020-10-24 15:29:12.680  INFO 5287 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2020-10-24 15:29:12.684  INFO 5287 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-24 15:29:12.728  WARN 5287 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2020-10-24 15:29:12.739  INFO 5287 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-24 15:29:12.812  INFO 5287 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-24 15:29:12.822 ERROR 5287 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+        ... 33 common frames omitted
+
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1699)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:471)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:589)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:522)
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.625 s
+[INFO] Finished at: 2020-10-24T15:29:13-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) on project postgres-demo: An exception occurred while running. null: InvocationTargetException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+alejandro@alejandro-HP-Pavilion-Notebook:~/postgres-demo$ 

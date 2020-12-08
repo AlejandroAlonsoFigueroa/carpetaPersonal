@@ -1,0 +1,121 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls
+ covid19_projectP1_APIS
+ Descargas
+ Documentos
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd ^C
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd covid19_projectP1_APIS
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ ls
+comunicacion.tex  Plan_de_riesgos.tex  README.md
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ ls
+comunicacion.tex                   Plan_de_riesgos.tex
+Plan_de_riesgos_Actualizacion.tex  README.md
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add Plan_de_riesgos_Actualizacion.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git commit Plan_de_riesgos_Actualizacion.tex
+[latex_plan-riesgos ded62e8] Commit: Actualizacion del plan de riesgos en latex
+ 1 file changed, 40 insertions(+)
+ create mode 100644 Plan_de_riesgos_Actualizacion.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git branch -a* latex_plan-riesgos
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/develop
+  remotes/origin/hotfixes
+  remotes/origin/latex_plan-comunicacion
+  remotes/origin/latex_plan-riesgos
+  remotes/origin/latex_vision-alcance
+  remotes/origin/main
+  remotes/origin/release
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git checkout latex_plan-riesgos
+Ya en 'latex_plan-riesgos'
+Tu rama está adelantada a 'origin/latex_plan-riesgos' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add Plan_de_riesgos_Actualizacion.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git commit Plan_de_riesgos_Actualizacion.tex
+En la rama latex_plan-riesgos
+Tu rama está adelantada a 'origin/latex_plan-riesgos' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo esta limpio
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push Plan_de_riesgos_Actualizacion.tex
+fatal: formato gitfile inválido: Plan_de_riesgos_Actualizacion.tex
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrese que tiene los permisos de acceso correctos
+y que el repositorio existe.
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push latex
+fatal: 'latex' does not appear to be a git repository
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrese que tiene los permisos de acceso correctos
+y que el repositorio existe.
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push  https://github.com/AlfonsoJari/covid19_projectP1_APIS.git latex_plan-riesgos
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+Contando objetos: 3, listo.
+Delta compression using up to 4 threads.
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 827 bytes | 827.00 KiB/s, listo.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AlfonsoJari/covid19_projectP1_APIS.git
+   a7f431c..ded62e8  latex_plan-riesgos -> latex_plan-riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$  git log -10 --pretty="%H"
+ded62e8893758c515c64125f40ef7540836f8594
+a7f431cbc07bda5bb098e3c21f4ff998b4a6ff89
+05e0245e8dcd2b30e39faae5285155e5bcc977b2
+a36b0786fb8ead93cc3ea8674364cab2825f9d72
+341e6f6505099f947be59f980c1d68484e7edc6f
+22e9adbba71bc681ca39e16e35d07d9f5b9eaf98
+a694a54ade3a2a865a19cfa219b5cc9d8af96291
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git reset --hard ded62e8893758c515c64125f40ef7540836f8594
+HEAD está ahora en ded62e8 Commit: Actualizacion del plan de riesgos en latex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push --force
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+Everything up-to-date
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git reset --hard a7f431cbc07bda5bb098e3c21f4ff998b4a6ff89
+HEAD está ahora en a7f431c COmmmit 1
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push --force
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/AlfonsoJari/covid19_projectP1_APIS.git
+ + ded62e8...a7f431c latex_plan-riesgos -> latex_plan-riesgos (forced update)
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git checkout latex_plan-riesgos
+Ya en 'latex_plan-riesgos'
+Tu rama está actualizada con 'origin/latex_plan-riesgos'.
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add Plan_de_riesgos_Actualizacion2.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git commit Plan_de_riesgos_Actualizacion2.tex
+[latex_plan-riesgos 11f3f95] Commit 2 tabla
+ 1 file changed, 33 insertions(+)
+ create mode 100644 Plan_de_riesgos_Actualizacion2.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git push  https://github.com/AlfonsoJari/covid19_projectP1_APIS.git latex_plan-riesgos
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+Contando objetos: 3, listo.
+Delta compression using up to 4 threads.
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 705 bytes | 705.00 KiB/s, listo.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AlfonsoJari/covid19_projectP1_APIS.git
+   a7f431c..11f3f95  latex_plan-riesgos -> latex_plan-riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ 
+

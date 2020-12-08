@@ -1,0 +1,186 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls 
+'bash 2 hoy'
+'bash de la verga'
+'bash hot'
+'bash hoy jajajajajaja'
+'bash jajajajaja'
+ covid19_projectP1_APIS
+ Descargas
+ docLatex
+ DocumentacionCOVID-Mapa
+ Documentos
+ EJercicio.java
+ Escritorio
+ Imágenes
+ incompleto
+'Instalando google chrome'
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ linux_signing_key.pub
+ Música
+ nash
+'nash no se cuando'
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'otro bash no tan importante wwho knos'
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ postgres-demo
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ usbi-apis
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd usbi-apis
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis$ ssh -i alonsofa alonsofa@104.198.244.0
+Warning: Identity file alonsofa not accessible: No such file or directory.
+alonsofa@104.198.244.0: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis$ cd ssh
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis/ssh$ ssh -i alonsofa alonsofa@104.198.244.0
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for 'alonsofa' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "alonsofa": bad permissions
+alonsofa@104.198.244.0: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis/ssh$ sudo apt-get install postgresql postgresqlcontrib
+[sudo] contraseña para alejandro: 
+Lo sentimos, vuelva a intentarlo.
+[sudo] contraseña para alejandro: 
+Lo sentimos, vuelva a intentarlo.
+[sudo] contraseña para alejandro: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+E: No se ha podido localizar el paquete postgresqlcontrib
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis/ssh$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis$ cd..
+ccd..: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~/usbi-apis$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo apt-get install postgresql postgresql-contrib
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+postgresql ya está en su versión más reciente (10+190ubuntu0.1).
+postgresql-contrib ya está en su versión más reciente (10+190ubuntu0.1).
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0
+  gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0
+  grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libdazzle-1.0-0 libe-book-0.1-1 libedataserverui-1.2-2 libeot0
+  libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14
+  libfreerdp-client2-2 libfreerdp2-2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0
+  libgpgmepp6 libgpod-common libgpod4 liblangtag-common liblangtag1
+  liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1
+  libqqwing2v5 libqt5concurrent5 libraw16 librevenge-0.0-0 libsgutils2-2
+  libssh-4 libsuitesparseconfig5 libvncclient1 libwayland-egl1-mesa
+  libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info
+  python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy
+  usb-creator-common
+Utilice «sudo apt autoremove» para eliminarlos.
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 300 no actualizados.
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo -u postgres psql
+psql (10.12 (Ubuntu 10.12-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# \l
+
+[1]+  Detenido                sudo -u postgres psql
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo -u postgres psql
+psql (10.12 (Ubuntu 10.12-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# create database alonsofa
+postgres-# ;
+CREATE DATABASE
+postgres=# 
+postgres=# alter user postgres with password 'ajxy2381';
+ALTER ROLE
+postgres=# 
+postgres=# ^C
+postgres=# ^C
+postgres=# ^C
+postgres=# ^C
+postgres=# ^C
+postgres=# 
+postgres=# ^C
+postgres=# ^C
+postgres=# \q
+alejandro@alejandro-HP-Pavilion-Notebook:~$ pwd
+/home/alejandro
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd 
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls
+'bash 2 hoy'
+'bash de la verga'
+'bash de visual'
+'bash hot'
+'bash hoy jajajajajaja'
+'bash jajajajaja'
+ covid19_projectP1_APIS
+ Descargas
+ docLatex
+ DocumentacionCOVID-Mapa
+ Documentos
+ EJercicio.java
+ Escritorio
+ Imágenes
+ incompleto
+'Instalando google chrome'
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ linux_signing_key.pub
+ Música
+ nash
+'nash no se cuando'
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'otro bash no tan importante wwho knos'
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ postgres-demo
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ usbi-apis
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd Descargas
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ ls
+ 87366749_525419428391063_7436335470402863104_n.jpg
+ 87543417_1108885396131360_2351603686729318400_n.jpg
+ chat.jpeg
+ code_1.50.1-1602600906_amd64.deb
+ discord-42-4.apk
+ Estimula.jpeg
+'google-chrome-stable_current_amd64(1).deb'
+ google-chrome-stable_current_amd64.deb
+ índice2.jpeg
+ índice.jpeg
+ jdk-11.0.9
+ jdk-11.0.9_linux-aarch64_bin.tar.gz
+ jdk1.8.0_271
+ jdk-8u271-linux-aarch64.tar.gz
+ LIbretaPRI.jpeg
+ Nigua_Embauca.jpeg
+ opera-stable_72.0.3815.148_amd64.deb
+ Perfido_Septentrional.jpeg
+ Plan_de_riesgos.tex
+'Procesos ISW.rar'
+ sakila-db
+ sakila-db.tar.gz
+ sakila-db.zip
+'Se ve la imagen.jpeg'
+ zoom_usbi_apis_16oct2020.mp4
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ pwd
+/home/alejandro/Descargas
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ 
+

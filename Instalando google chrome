@@ -1,0 +1,148 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls
+'bash 2 hoy'
+'bash de la verga'
+'bash hot'
+'bash hoy jajajajajaja'
+'bash jajajajaja'
+ covid19_projectP1_APIS
+ Descargas
+ docLatex
+ DocumentacionCOVID-Mapa
+ Documentos
+ EJercicio.java
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ nash
+'nash no se cuando'
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ postgres-demo
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd Descargas
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ ls
+ 87366749_525419428391063_7436335470402863104_n.jpg
+ 87543417_1108885396131360_2351603686729318400_n.jpg
+ chat.jpeg
+ code_1.50.1-1602600906_amd64.deb
+ discord-42-4.apk
+ Estimula.jpeg
+'google-chrome-stable_current_amd64(1).deb'
+ google-chrome-stable_current_amd64.deb
+ índice2.jpeg
+ índice.jpeg
+ jdk-11.0.9
+ jdk-11.0.9_linux-aarch64_bin.tar.gz
+ jdk1.8.0_271
+ jdk-8u271-linux-aarch64.tar.gz
+ LIbretaPRI.jpeg
+ Nigua_Embauca.jpeg
+ opera-stable_72.0.3815.148_amd64.deb
+ Perfido_Septentrional.jpeg
+ Plan_de_riesgos.tex
+'Procesos ISW.rar'
+ sakila-db
+ sakila-db.tar.gz
+ sakila-db.zip
+'Se ve la imagen.jpeg'
+ zoom_usbi_apis_16oct2020.mp4
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ .\ google-chrome-stable_current_amd64.deb
+. google-chrome-stable_current_amd64.deb: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ ./ google-chrome-stable_current_amd64.deb
+bash: ./: Es un directorio
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$  google-chrome-stable_current_amd64.deb
+google-chrome-stable_current_amd64.deb: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ execute  google-chrome-stable_current_amd64.deb
+execute: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo nano /etc/apt/sources.list.d/google-chrome.list
+[sudo] contraseña para alejandro: 
+alejandro@alejandro-HP-Pavilion-Notebook:~$ wget https://dl.google.com/linux/linux_signing_key.pub
+--2020-10-21 12:57:36--  https://dl.google.com/linux/linux_signing_key.pub
+Resolviendo dl.google.com (dl.google.com)... 2607:f8b0:4000:804::200e, 142.250.68.174
+Conectando con dl.google.com (dl.google.com)[2607:f8b0:4000:804::200e]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 10218 (10.0K) [application/octet-stream]
+Guardando como: “linux_signing_key.pub”
+
+linux_signing_key.p 100%[===================>]   9.98K  --.-KB/s    en 0.02s   
+
+2020-10-21 12:57:39 (406 KB/s) - “linux_signing_key.pub” guardado [10218/10218]
+
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo apt-key add linux_signing_key.pub
+OK
+alejandro@alejandro-HP-Pavilion-Notebook:~$ 
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo apt update && sudo apt install google-chrome-stable
+Des:1 http://dl.google.com/linux/chrome/deb stable InRelease [1 811 B]
+Des:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]    
+Obj:3 http://mx.archive.ubuntu.com/ubuntu bionic InRelease                     
+Des:5 http://mx.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]   
+Des:6 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1 089 B]
+Des:4 http://ppa.launchpad.net/sunderme/texstudio/ubuntu bionic InRelease [15.4 kB]
+Des:7 http://mx.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB] 
+Des:8 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [1 396 kB]
+Des:9 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [1 722 kB]
+Des:10 http://ppa.launchpad.net/sunderme/texstudio/ubuntu bionic/main i386 Packages [668 B]
+Des:11 http://ppa.launchpad.net/sunderme/texstudio/ubuntu bionic/main amd64 Packages [668 B]
+Des:12 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [845 kB]
+Des:13 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [1 140 kB]
+Des:14 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [276 kB]
+Des:15 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [49.0 kB]
+Des:16 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [165 kB]
+Des:17 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [21.9 kB]
+Des:18 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1 078 kB]
+Des:19 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [366 kB]
+Des:20 http://mx.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]
+Des:21 http://mx.archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [17.2 kB]
+Des:22 http://mx.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [182 kB]
+Des:23 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [964 kB]
+Des:24 http://mx.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [24.4 kB]
+Des:25 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1 680 kB]
+Des:26 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [241 kB]
+Des:27 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [58.8 kB]
+Des:28 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [120 kB]
+Des:29 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [4 812 B]
+Des:30 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [12.9 kB]
+Des:31 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2 964 B]
+Des:32 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2 464 B]
+Des:33 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1 544 kB]
+Des:34 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [353 kB]
+Des:35 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [287 kB]
+Des:36 http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [475 kB]
+Des:37 http://mx.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [31.9 kB]
+Des:38 http://mx.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [12.9 kB]
+Des:39 http://mx.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [6 980 B]
+Des:40 http://mx.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2 468 B]
+Des:41 http://mx.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [9 284 B]
+Descargados 13.7 MB en 14s (953 kB/s)                                          
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se pueden actualizar 300 paquetes. Ejecute «apt list --upgradable» para verlos.
+E: se interrumpió la ejecución de dpkg, debe ejecutar manualmente «sudo dpkg --configure -a» para corregir el problema
+alejandro@alejandro-HP-Pavilion-Notebook:~$ google-chrome-stable
+google-chrome-stable: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo dpkg --configure -a
+Configurando code (1.50.1-1602600906) ...
+gpg: AVISO: propiedad insegura del directorio personal '/home/alejandro/.gnupg'
+Procesando disparadores para gnome-menus (3.13.3-11ubuntu1.1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Procesando disparadores para shared-mime-info (1.9-2) ...
+alejandro@alejandro-HP-Pavilion-Notebook:~$ google-chrome-stable
+google-chrome-stable: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ google-chrome-stable
+google-chrome-stable: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ 
+

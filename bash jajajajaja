@@ -1,0 +1,157 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls 
+'bash 2 hoy'
+ covid19_projectP1_APIS
+ Descargas
+ Documentos
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd civud19_projectP1
+bash: cd: civud19_projectP1: No existe el archivo o el directorio
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd covid19_projectP1_APIS
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ ls 
+comunicacion.tex  Plan_de_riesgos_Actualizacion2.tex  Plan_de_riesgos.tex
+mapa.png          Plan_de_riesgos_Actualizacion.tex   README.md
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add mapa.png
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add Paln_de_riesgos_Actualizacion2.tex
+fatal: ruta especificada 'Paln_de_riesgos_Actualizacion2.tex' no concordó con ninguna carpeta
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git add Plan_de_riesgos_Actualizacion2.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ git commit Plan_de_riesgos_Actualizacion2.tex
+En la rama latex_plan-riesgos
+Tu rama está adelantada a 'origin/latex_plan-riesgos' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+	Plan_de_riesgos_Actualizacion.tex
+
+no hay nada agregado para confirmar, pero hay archivos sin seguimiento presentes
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ ^V^C
+alejandro@alejandro-HP-Pavilion-Notebook:~/covid19_projectP1_APIS$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~$ git clone https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git
+Clonando en 'DocumentacionCOVID-Mapa'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 10 (delta 0), reused 5 (delta 0), pack-reused 0
+Desempaquetando objetos: 100% (10/10), listo.
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls
+'bash 2 hoy'
+ covid19_projectP1_APIS
+ Descargas
+ DocumentacionCOVID-Mapa
+ Documentos
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd DocumentacionCOVID-Mapa
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add Riesgos 
+fatal: ruta especificada 'Riesgos' no concordó con ninguna carpeta
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add riesgos
+fatal: ruta especificada 'riesgos' no concordó con ninguna carpeta
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+
+*** Por favor cuéntame quien eres.
+
+Corre
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alejandro@alejandro-HP-Pavilion-Notebook.(none)')
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git config user.email "alexalfi00@gmail.com"
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+[master 3e62ce4] Plan de riesgos
+ 2 files changed, 33 insertions(+)
+ create mode 100644 Riesgos/Plan_de_riesgos_Actualizacion2.tex
+ create mode 100644 Riesgos/mapa.png
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  Riesgos
+git: 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'no es un comando de git. Mira 'git --help'.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  Riesgos
+error: src refspec Riesgos does not match any.
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git chekcout master
+git: 'chekcout'no es un comando de git. Mira 'git --help'.
+
+El comando mas similar es
+	checkout
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git checkout master
+Ya en 'master'
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  Riesgos
+error: src refspec Riesgos does not match any.
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  Riesgos
+error: src refspec Riesgos does not match any.
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+En la rama master
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+	Comunicacion/Riesgos/
+
+no hay nada agregado para confirmar, pero hay archivos sin seguimiento presentes
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa 
+Password for 'https://AlejandroAlonsoFigueroa @github.com': 
+remote: Permission to AlfonsoJari/DocumentacionCOVID-Mapa.git denied to AlejandroAlonsoFigueroa.
+fatal: unable to access 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git/': The requested URL returned error: 403
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+remote: Permission to AlfonsoJari/DocumentacionCOVID-Mapa.git denied to AlejandroAlonsoFigueroa.
+fatal: unable to access 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git/': The requested URL returned error: 403
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+remote: Permission to AlfonsoJari/DocumentacionCOVID-Mapa.git denied to AlejandroAlonsoFigueroa.
+fatal: unable to access 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git/': The requested URL returned error: 403
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+To https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git
+ ! [rejected]        master -> master (fetch first)
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
+ayuda: no existe localmente. Esto es causado usualmente por otro repositorio 
+ayuda: realizando push a la misma ref. Quizás quiera integrar primero los cambios
+ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
+ayuda: Vea 'Notes about fast-forwards0 en 'git push --help' para detalles.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ 
+

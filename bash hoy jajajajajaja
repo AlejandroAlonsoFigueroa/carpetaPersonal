@@ -1,0 +1,145 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ �c 
+\udcb1c: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls
+'bash 2 hoy'
+'bash jajajajaja'
+ covid19_projectP1_APIS
+ Descargas
+ docLatex
+ DocumentacionCOVID-Mapa
+ Documentos
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ nash
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd DocumentacionCOVID-Mapa
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+To https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git
+ ! [rejected]        master -> master (fetch first)
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
+ayuda: no existe localmente. Esto es causado usualmente por otro repositorio 
+ayuda: realizando push a la misma ref. Quizás quiera integrar primero los cambios
+ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
+ayuda: Vea 'Notes about fast-forwards0 en 'git push --help' para detalles.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ ls 
+ carpetaRiesgos   Comunicacion   Riesgos  'vision y alcance'
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+[master 2c4bdd6] La actualizacoin
+ 1 file changed, 38 deletions(-)
+ delete mode 100644 Riesgos/Plan_de_riesgos_Actualizacion2.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+To https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git
+ ! [rejected]        master -> master (fetch first)
+error: fallo el push de algunas referencias a 'https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git'
+ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
+ayuda: no existe localmente. Esto es causado usualmente por otro repositorio 
+ayuda: realizando push a la misma ref. Quizás quiera integrar primero los cambios
+ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
+ayuda: Vea 'Notes about fast-forwards0 en 'git push --help' para detalles.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd DocumentacionCOVID-Mapa
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git pull 
+remote: Enumerating objects: 65, done.
+remote: Counting objects: 100% (65/65), done.
+remote: Compressing objects: 100% (53/53), done.
+remote: Total 62 (delta 21), reused 30 (delta 7), pack-reused 0
+Desempaquetando objetos: 100% (62/62), listo.
+Desde https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa
+   83903ba..e17979d  master     -> origin/master
+Eliminando vision y alcance/proyecto_v01.tex
+Eliminando vision y alcance/proyecto_v01.pdf
+Eliminando Comunicacion/parcial1.tex
+Eliminando Comunicacion/parcial1.pdf
+Merge made by the 'recursive' strategy.
+ .../Arquitectura tecnologica.png                   | Bin 0 -> 202183 bytes
+ .../Captura de pantalla de 2020-10-12 18-22-20.png | Bin 0 -> 183694 bytes
+ Comunicacion/documentoComunicacion.aux             |   5 +
+ Comunicacion/documentoComunicacion.log             | 212 +++++++++++++++++++++
+ Comunicacion/documentoComunicacion.pdf             | Bin 0 -> 285407 bytes
+ Comunicacion/documentoComunicacion.synctex.gz      | Bin 0 -> 6923 bytes
+ Comunicacion/documentoComunicacion.tex             |  54 ++++++
+ Comunicacion/parcial1.pdf                          | Bin 274206 -> 0 bytes
+ Comunicacion/parcial1.tex                          |  26 ---
+ Comunicacion/uv1.png                               | Bin 0 -> 101511 bytes
+ Mockups/mapa.png                                   | Bin 0 -> 412736 bytes
+ Mockups/mockup login.jpg                           | Bin 0 -> 259220 bytes
+ Mockups/mockup-landingPage.png                     | Bin 0 -> 94480 bytes
+ PlanDeRiesgos.tex                                  |  53 ++++++
+ vision y alcance/proyecto_v01.pdf                  | Bin 90315 -> 0 bytes
+ vision y alcance/proyecto_v01.tex                  | 197 -------------------
+ vision y alcance/visionyalcance.pdf                | Bin 0 -> 164698 bytes
+ vision y alcance/visionyalcance.tex                | 203 ++++++++++++++++++++
+ 18 files changed, 527 insertions(+), 223 deletions(-)
+ create mode 100644 Arquitetura Tecnologica/Arquitectura tecnologica.png
+ create mode 100644 Comunicacion/Captura de pantalla de 2020-10-12 18-22-20.png
+ create mode 100644 Comunicacion/documentoComunicacion.aux
+ create mode 100644 Comunicacion/documentoComunicacion.log
+ create mode 100644 Comunicacion/documentoComunicacion.pdf
+ create mode 100644 Comunicacion/documentoComunicacion.synctex.gz
+ create mode 100644 Comunicacion/documentoComunicacion.tex
+ delete mode 100644 Comunicacion/parcial1.pdf
+ delete mode 100644 Comunicacion/parcial1.tex
+ create mode 100644 Comunicacion/uv1.png
+ create mode 100644 Mockups/mapa.png
+ create mode 100644 Mockups/mockup login.jpg
+ create mode 100644 Mockups/mockup-landingPage.png
+ create mode 100644 PlanDeRiesgos.tex
+ delete mode 100644 vision y alcance/proyecto_v01.pdf
+ delete mode 100644 vision y alcance/proyecto_v01.tex
+ create mode 100644 vision y alcance/visionyalcance.pdf
+ create mode 100644 vision y alcance/visionyalcance.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ ls
+'Arquitetura Tecnologica'   Mockups            'vision y alcance'
+ carpetaRiesgos             PlanDeRiesgos.tex
+ Comunicacion               Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git add Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+En la rama master
+Tu rama está adelantada a 'origin/master' por 4 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+	Comunicacion/Riesgos/
+
+no hay nada agregado para confirmar, pero hay archivos sin seguimiento presentes
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git push https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git  master
+Username for 'https://github.com': AlejandroAlonsoFigueroa
+Password for 'https://AlejandroAlonsoFigueroa@github.com': 
+Contando objetos: 13, listo.
+Delta compression using up to 4 threads.
+Comprimiendo objetos: 100% (13/13), listo.
+Escribiendo objetos: 100% (13/13), 1.93 KiB | 1.93 MiB/s, listo.
+Total 13 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/AlfonsoJari/DocumentacionCOVID-Mapa.git
+   e17979d..7cd8cb7  master -> master
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ 
+
+
+
+fajardo cyrilium 
+

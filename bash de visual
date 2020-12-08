@@ -1,0 +1,609 @@
+ssh -i alonsofa alonsofa@104.198.244.0
+65 B at 6.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom (10 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom (11 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom (363 B at 2.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.pom (2.5 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M5/sisu-inject-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M5/sisu-inject-0.0.0.M5.pom (14 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom (3.9 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom (4.0 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.pom (2.8 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.pom (4.1 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.pom (1.7 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.pom (1.8 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.pom (3.3 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom (5.0 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.pom (3.8 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (1.6 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (12 kB at 79 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/6/maven-parent-6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/6/maven-parent-6.pom (20 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (2.3 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom (3.1 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (2.7 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (2.1 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (2.0 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (2.7 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (1.9 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (2.0 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom (1.5 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom (2.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom (4.0 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom (2.8 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom (19 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 1.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom (5.3 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom (2.5 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom (1.6 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.2/maven-shade-plugin-2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.2/maven-shade-plugin-2.2.pom (7.8 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 1.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom (417 B at 3.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom (406 B at 2.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1/jdom-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1/jdom-1.1.pom (2.2 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom (6.8 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (2.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (22 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (2.2 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (3.2 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (2.2 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (3.1 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (1.9 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (1.6 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (1.9 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/0.7/jdependency-0.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/0.7/jdependency-0.7.pom (7.5 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom (9.7 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom (12 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.pom (264 B at 1.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.2/asm-parent-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.2/asm-parent-3.2.pom (4.4 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.pom (417 B at 2.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.pom (404 B at 2.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.pom (415 B at 2.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.pom (409 B at 2.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.pom (5.5 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/11.0.2/guava-parent-11.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/11.0.2/guava-parent-11.0.2.pom (2.0 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.0.5.RELEASE/spring-boot-loader-tools-2.0.5.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar (23 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar (62 kB at 145 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.0.5.RELEASE/spring-boot-loader-tools-2.0.5.RELEASE.jar (148 kB at 265 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.1/maven-settings-builder-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar (52 kB at 92 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar (170 kB at 224 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.jar (25 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.1/maven-settings-builder-3.1.1.jar (42 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar (18 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.jar (60 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.jar (160 kB at 102 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar (134 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar (145 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar (530 kB at 288 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar (4.5 kB at 2.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar (557 kB at 278 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.jar (50 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar (197 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.1/maven-settings-3.1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar (154 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.1/maven-settings-3.1.1.jar (42 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar (45 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar (357 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar (291 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar (32 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.jar (35 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.jar (57 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.jar (29 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.jar (117 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar (45 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.8.1/plexus-archiver-2.8.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar (134 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar (217 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.2/maven-shade-plugin-2.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar (74 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.8.1/plexus-archiver-2.8.1.jar (143 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.2/maven-shade-plugin-2.2.jar (100 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar (53 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 9.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1/jdom-1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar (358 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar (22 kB at 4.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/0.7/jdependency-0.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar (38 kB at 8.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar (60 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/0.7/jdependency-0.7.jar (12 kB at 2.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1/jdom-1.1.jar (153 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.jar (18 kB at 3.6 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar (88 kB at 17 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.jar (37 kB at 6.7 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 115 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.jar (1.6 MB at 207 kB/s)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2020-10-24 15:18:28.655  INFO 5007 --- [           main] c.e.p.PostgresDemoApplication            : Starting PostgresDemoApplication on alejandro-HP-Pavilion-Notebook with PID 5007 (/home/alejandro/postgres-demo/target/classes started by alejandro in /home/alejandro/postgres-demo)
+2020-10-24 15:18:28.670  INFO 5007 --- [           main] c.e.p.PostgresDemoApplication            : No active profile set, falling back to default profiles: default
+2020-10-24 15:18:28.930  INFO 5007 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fc8b9f5: startup date [Sat Oct 24 15:18:28 CDT 2020]; root of context hierarchy
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/home/alejandro/.m2/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-10-24 15:18:33.477  INFO 5007 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a179e8c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-24 15:18:34.910  INFO 5007 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-24 15:18:35.047  INFO 5007 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-24 15:18:35.048  INFO 5007 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-10-24 15:18:35.080  INFO 5007 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-10-24 15:18:35.532  INFO 5007 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-24 15:18:35.535  INFO 5007 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6603 ms
+2020-10-24 15:18:35.835  INFO 5007 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-10-24 15:18:35.860  INFO 5007 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-24 15:18:35.862  INFO 5007 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-24 15:18:35.862  INFO 5007 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-24 15:18:35.863  INFO 5007 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-24 15:18:36.681  INFO 5007 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-24 15:18:38.012 ERROR 5007 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+        at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38.CGLIB$jpaVendorAdapter$5(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38$$FastClassBySpringCGLIB$$f2e15b7d.invoke(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38.jpaVendorAdapter(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2020-10-24 15:18:38.025  WARN 5007 --- [           main] o.s.b.a.orm.jpa.DatabaseLookup           : Unable to determine jdbc url from datasource
+
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38.CGLIB$jpaVendorAdapter$5(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38$$FastClassBySpringCGLIB$$f2e15b7d.invoke(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c050ab38.jpaVendorAdapter(<generated>) ~[spring-boot-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 67 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres "
+        at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+        at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+        at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 68 common frames omitted
+
+2020-10-24 15:18:38.196  INFO 5007 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-10-24 15:18:38.258  INFO 5007 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+        name: default
+        ...]
+2020-10-24 15:18:38.559  INFO 5007 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2020-10-24 15:18:38.564  INFO 5007 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-24 15:18:38.650  WARN 5007 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2020-10-24 15:18:38.660  INFO 5007 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-24 15:18:38.764  INFO 5007 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-24 15:18:38.771 ERROR 5007 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+        at com.example.postgresdemo.PostgresDemoApplication.main(PostgresDemoApplication.java:10) ~[classes/:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+        at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:497) ~[na:na]
+        at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+        at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+        at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+        ... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[na:na]
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+        ... 33 common frames omitted
+
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1699)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:471)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:589)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:522)
+    at org.hibernate.boot.spi.XmlMappingBinderAccess.<init> (XmlMappingBinderAccess.java:43)
+    at org.hibernate.boot.MetadataSources.<init> (MetadataSources.java:87)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:209)
+    at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init> (EntityManagerFactoryBuilderImpl.java:164)
+    at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory (SpringHibernateJpaPersistenceProvider.java:51)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory (LocalContainerEntityManagerFactoryBean.java:365)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory (AbstractEntityManagerFactoryBean.java:390)
+    at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet (AbstractEntityManagerFactoryBean.java:377)
+    at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet (LocalContainerEntityManagerFactoryBean.java:341)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods (AbstractAutowireCapableBeanFactory.java:1758)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean (AbstractAutowireCapableBeanFactory.java:1695)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean (AbstractAutowireCapableBeanFactory.java:573)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean (AbstractAutowireCapableBeanFactory.java:495)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0 (AbstractBeanFactory.java:317)
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton (DefaultSingletonBeanRegistry.java:222)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:315)
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
+    at org.springframework.context.support.AbstractApplicationContext.getBean (AbstractApplicationContext.java:1089)
+    at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization (AbstractApplicationContext.java:859)
+    at org.springframework.context.support.AbstractApplicationContext.refresh (AbstractApplicationContext.java:550)
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh (ServletWebServerApplicationContext.java:140)
+    at org.springframework.boot.SpringApplication.refresh (SpringApplication.java:780)
+    at org.springframework.boot.SpringApplication.refreshContext (SpringApplication.java:412)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:333)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1277)
+    at org.springframework.boot.SpringApplication.run (SpringApplication.java:1265)
+    at com.example.postgresdemo.PostgresDemoApplication.main (PostgresDemoApplication.java:10)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run (AbstractRunMojo.java:497)
+    at java.lang.Thread.run (Thread.java:834)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 min
+[INFO] Finished at: 2020-10-24T15:18:39-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.0.5.RELEASE:run (default-cli) on project postgres-demo: An exception occurred while running. null: InvocationTargetException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+alejandro@alejandro-HP-Pavilion-Notebook:~/postgres-demo$ 
