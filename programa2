@@ -1,0 +1,50 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    int decision;
+    int baseTriangulo, perimetro, altura;
+    int lado1, lado2;
+    double  area;
+    Console.WriteLine("ELige una opcion 1.-Isoceles 2.- Escanelno 3.-Equilatero");
+    decision=int.Parse(Console.ReadLine());
+    switch(decision){
+        case 1:
+            Console.WriteLine("Ingresa la base de tu triangulo isoceles: ");     
+            baseTriangulo =int.Parse(Console.ReadLine());
+            Console.WriteLine("INgresa la altura de tu triangulo escaleno");
+            altura =int.Parse(Console.ReadLine());
+            area = baseTriangulo * altura /2 ;
+            Console.WriteLine("INgresa un lado de tu triangulo ");
+            lado1 =int.Parse(Console.ReadLine());
+            perimetro = lado1*2 + baseTriangulo;
+            Console.WriteLine("Area: {0}", area);
+            Console.WriteLine("Perimetro {0}",perimetro);
+            break;
+        case 2:
+            Console.WriteLine("INgresa la base de tu triangulo escaleno");
+            baseTriangulo =int.Parse(Console.ReadLine());
+            Console.WriteLine("INgresa la altura de tu triangulo escaleno");
+            altura =int.Parse(Console.ReadLine());
+            area = baseTriangulo * altura / 2;
+            Console.WriteLine("INgresa un lado de tu triangulo ");
+            lado1 =int.Parse(Console.ReadLine());
+            Console.WriteLine("INgresa otro lado de tu triangulo ");
+            lado2 =int.Parse(Console.ReadLine());
+            perimetro = baseTriangulo + lado1 + lado2;
+            Console.WriteLine("Area: {0}", area);
+            Console.WriteLine("Perimetro: {0}", perimetro);
+            
+            break;
+        case 3:
+            Console.WriteLine("DIgita la base del triangulo equilatero : ");
+            baseTriangulo =int.Parse(Console.ReadLine());
+            perimetro = 3*baseTriangulo;
+            area = baseTriangulo*(Math.Sqrt(3*baseTriangulo)/2) / 2 ;
+            Console.WriteLine("EL perimetro de tu triangulo es {0}", perimetro);
+            Console.WriteLine("EL area de tu triangulo es {0}", area);
+            break;
+        
+    }
+  }
+}
+

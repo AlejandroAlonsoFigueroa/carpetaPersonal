@@ -1,0 +1,92 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ postgres
+
+Orden «postgres» no encontrada. Quizá quiso decir:
+
+  la orden «postgrey» del paquete deb «postgrey»
+
+Pruebe con: sudo apt install <nombre del paquete deb>
+
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo su -postgres
+[sudo] contraseña para alejandro: 
+su: opción incorrecta -- «o»
+Modo de uso: su [opciones] [USUARIO]
+
+Opciones:
+  -c, --command ORDEN           pasa la ORDEN a la consola invocada
+  -h, --help                    muestra este mensaje de ayuda y termina
+  -, -l, --login                hace que la consola sea una de acceso
+  -m, -p,
+  --preserve-environment        no reinicia las variables de entorno, y
+                                mantiene la misma consola
+  -s, --shell CONSOLA           usa CONSOLA en lugar de la predeterminada en
+                                passwd
+
+alejandro@alejandro-HP-Pavilion-Notebook:~$ -postgres
+-postgres: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo psql
+Password: 
+psql: FATAL:  password authentication failed for user "root"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ psql 
+Password: 
+psql: FATAL:  password authentication failed for user "alejandro"
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo su -postgres
+su: opción incorrecta -- «o»
+Modo de uso: su [opciones] [USUARIO]
+
+Opciones:
+  -c, --command ORDEN           pasa la ORDEN a la consola invocada
+  -h, --help                    muestra este mensaje de ayuda y termina
+  -, -l, --login                hace que la consola sea una de acceso
+  -m, -p,
+  --preserve-environment        no reinicia las variables de entorno, y
+                                mantiene la misma consola
+  -s, --shell CONSOLA           usa CONSOLA en lugar de la predeterminada en
+                                passwd
+
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo -u postgres psql.
+sudo: psql.: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo  -u postgres psql.
+sudo: psql.: orden no encontrada
+alejandro@alejandro-HP-Pavilion-Notebook:~$ sudo  -u postgres psql
+psql (10.12 (Ubuntu 10.12-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# \l
+
+[1]+  Detenido                sudo -u postgres psql
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd Descargas
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ ls
+ 87366749_525419428391063_7436335470402863104_n.jpg
+ 87543417_1108885396131360_2351603686729318400_n.jpg
+ chat.jpeg
+ code_1.50.1-1602600906_amd64.deb
+ discord-42-4.apk
+ Estimula.jpeg
+'google-chrome-stable_current_amd64(1).deb'
+ google-chrome-stable_current_amd64.deb
+ índice2.jpeg
+ índice.jpeg
+ jdk-11.0.9
+ jdk-11.0.9_linux-aarch64_bin.tar.gz
+ jdk1.8.0_271
+ jdk-8u271-linux-aarch64.tar.gz
+ LIbretaPRI.jpeg
+ Nigua_Embauca.jpeg
+ nose_files
+ nose.html
+ opera-stable_72.0.3815.148_amd64.deb
+ Perfido_Septentrional.jpeg
+ Plan_de_riesgos.tex
+'Procesos ISW.rar'
+ sakila-db
+ sakila-db.tar.gz
+ sakila-db.zip
+'Se ve la imagen.jpeg'
+ zoom_usbi_apis_16oct2020.mp4
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ pwd
+/home/alejandro/Descargas
+alejandro@alejandro-HP-Pavilion-Notebook:~/Descargas$ 
+

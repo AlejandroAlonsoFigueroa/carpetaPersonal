@@ -1,0 +1,111 @@
+alejandro@alejandro-HP-Pavilion-Notebook:~$ git 
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+Estos son comandos comunes de Git usados en varias situaciones:
+
+comienza un área de trabajo (ver también: git help tutorial)
+   clone      Clona un repositorio dentro de un nuevo directorio
+   init       Crea un repositorio de Git vacío o reinicia el que ya existe
+
+trabaja en los cambios actuales (ver también: git help everyday)
+   add        Agrega contenido de carpetas al índice
+   mv         Mueve o cambia el nombre a archivos, directorios o enlaces simbólicos
+   reset      Reinicia el HEAD actual a un estado especifico
+   rm         Borra archivos del árbol de trabajo y del índice
+
+examina el historial y el estado (ver también: git help revisions)
+   bisect     Use la búsqueda binaria para encontrar el commit que introdujo el bug
+   grep       Imprime las líneas que concuerdan con el patron
+   log        Muestra los logs de los commits
+   show       Muestra varios tipos de objetos
+   status     Muestra el estado del árbol de trabajo
+
+crece, marca y ajusta tu historial común
+   branch     Lista, crea, o borra ramas
+   checkout   Cambia ramas o restaura los archivos de tu árbol de trabajo
+   commit     Graba los cambios en tu repositorio
+   diff       Muestra los cambios entre commits, commit y árbol de trabajo, etc
+   merge      Junta dos o mas historiales de desarrollo juntos
+   rebase     Vuelve a aplicar commits en la punta de otra rama
+   tag        Crea, lista, borra o verifica un tag de objeto firmado con GPG
+
+colabora (mira también: git help workflows)
+   fetch      Descarga objetos y referencias de otro repositorio
+   pull       Realiza un fetch e integra con otro repositorio o rama local
+   push       Actualiza referencias remotas junto con sus objetos asociados
+
+'git help -a' y 'git help -g' listan los subcomandos disponibles y algunas
+guías de concepto. Consulte 'git help <command>' o 'git help <concepto>'
+para leer sobre un subcomando o concepto específico.
+alejandro@alejandro-HP-Pavilion-Notebook:~$ ls 
+'bash 2 hoy'
+'bash jajajajaja'
+ covid19_projectP1_APIS
+ Descargas
+ docLatex
+ DocumentacionCOVID-Mapa
+ Documentos
+ Escritorio
+ Imágenes
+ incompleto
+ jdk-8u111-nb-8_2-linux-x64.sh
+'latex jaja'
+ Música
+ netbeans-8.2-linux.sh
+ NetBeansProjects
+'Palabras que estaban en la escalera de caracol'
+ Plantillas
+ programa1
+ programa2
+ programa3
+'programa a medias'
+ Público
+ skjdfnksdfsd
+ Vídeos
+alejandro@alejandro-HP-Pavilion-Notebook:~$ cd DocumentacionCOVID-Mapa
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ ls
+ carpetaRiesgos   Comunicacion   Riesgos  'vision y alcance'
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ cd RIesgos 
+bash: cd: RIesgos: No existe el archivo o el directorio
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ cd Riesgos
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ ls
+mapa.png  Plan_de_riesgos_Actualizacion2.tex  PlanDeRiesgos.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ git add PlanRiesgos.tex
+fatal: ruta especificada 'PlanRiesgos.tex' no concordó con ninguna carpeta
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ git add PlanDeRiesgos.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ ls 
+mapa.png  Plan_de_riesgos_Actualizacion2.tex  PlanDeRiesgos.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ git add mapa.png
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ las
+
+Orden «las» no encontrada. Quizá quiso decir:
+
+  la orden «as» del paquete deb «binutils»
+  la orden «ls» del paquete deb «coreutils»
+  la orden «lrs» del paquete deb «lrslib»
+  la orden «last» del paquete deb «util-linux»
+  la orden «les» del paquete deb «atm-tools»
+  la orden «laps» del paquete deb «epix»
+  la orden «cas» del paquete deb «amule-utils»
+  la orden «als» del paquete deb «atool»
+  la orden «lvs» del paquete deb «lvm2»
+
+Pruebe con: sudo apt install <nombre del paquete deb>
+
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ ls 
+mapa.png  Plan_de_riesgos_Actualizacion2.tex  PlanDeRiesgos.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ git commit Riesgos
+error: pathspec 'Riesgos' did not match any file(s) known to git.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa/Riesgos$ cd ..
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit RIesgos
+error: pathspec 'RIesgos' did not match any file(s) known to git.
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ git commit Riesgos
+[master 3cf8dd8] COmmit ya
+ 2 files changed, 58 insertions(+)
+ create mode 100644 Riesgos/PlanDeRiesgos.tex
+alejandro@alejandro-HP-Pavilion-Notebook:~/DocumentacionCOVID-Mapa$ 
+
